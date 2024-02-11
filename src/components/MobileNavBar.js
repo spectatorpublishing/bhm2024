@@ -120,7 +120,7 @@ const MobileNavBar = () => {
                             <>
                                 {(show) ?
                                     <NavHashLink smooth to={section.url} style={{marginTop: '6`px'}}>
-                                        <Link currentSection = {window.location.pathname == section.url} key={index} onClick={() => setToggle(!show)}>
+                                        <Link currentSection = {window.location.pathname === section.url} key={index} onClick={() => setToggle(!show)}>
                                             <NavText>{section.title}</NavText>
                                             <Bullet currentSection={window.location.pathname === section.url} />
                                         </Link>
