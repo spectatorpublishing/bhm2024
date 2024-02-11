@@ -16,7 +16,7 @@ const NavWrapper = styled.div`
 
 const VertNav = styled.div`
     right: 4vw;
-    top:${props => props.isSection ? '2.5rem' : '190px'};
+    top:${props => props.isSection ? '5.5rem' : '190px'};
     z-index:100;
     padding:1rem 0rem;
     position: ${props => props.isSection ? 'absolute' : 'absolute'};
@@ -25,15 +25,18 @@ const VertNav = styled.div`
 `;
 
 const Tab = styled.a`
-    display:block;
-    text-align:right;
-    padding:  1.25rem 1rem 0.75rem 0.25rem;
+    display: flex;
+    width: fit-content;
+    justify-content: flex-end;
+    margin-left: auto;
+    border-radius: 20px;
     color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
     font-weight: ${props => props.currentSection ? 700 : 400};
-    div {
-        width: 10rem;
-        font-size:1rem;
-    }
+    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : 'black'};
+    padding: 0.85rem 1.25rem;
+    color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
+    font-weight: ${props => props.currentSection ? 700 : 400};
+    font-size: 1rem;
     :hover {
         color: #DF1717;
         cursor:pointer;
@@ -47,10 +50,9 @@ const NavText = styled.div`
 `;
 
 const Bullet = styled.span`
-    position:absolute;
     width: 0.35rem;
     height: 0.35rem;
-    background-color: #EAD1D1;
+    background-color: ${(props) => (props.currentSection ? '#DF1717' : '#F9B71A')};
     border-radius: 50%;
     margin-top: 0.38rem;
 `;
@@ -63,7 +65,8 @@ const NavBar = ({isSection}) => {
             {sections.map((section, index) => (
                 <NavHashLink smooth to={section.url}>
                     <Tab currentSection = {window.location.pathname == section.url} key={index}>
-                        <Bullet></Bullet><NavText>{section.title}</NavText>  
+                        <NavText>{section.title}</NavText>
+                        <Bullet currentSection={window.location.pathname === section.url} />
                     </Tab>
                 </NavHashLink>
             ))}

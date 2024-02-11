@@ -45,7 +45,7 @@ const MobileMenu = styled.div`
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background-color: #92718A;
+    background-color: black;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F8BEB9;
 
@@ -74,16 +74,15 @@ const MenuIcon = styled.div`
 const Link = styled.a`
     display: flex;
     font-size:1rem;
-    padding: 0.85rem 3rem;
+    padding: 0.85rem 1.25rem;
     width: fit-content;
     margin-left: auto;
-    background-color: #92718A;
     border-radius: 20px;
-    color: ${props => props.currentSection ? '#F8BEB9' : 'white'};
+    color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
     font-weight: ${props => props.currentSection ? 700 : 400};
-
+    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : 'black'};
     &:hover{
-         color: #F8BEB9;
+         color: #DF1717;
          cursor:pointer;
     }
 `;
@@ -97,7 +96,7 @@ const NavText = styled.div`
 const Bullet = styled.span`
     width: 5px;
     height: 5px;
-    background-color: #EAD1D1;
+    background-color: ${(props) => (props.currentSection ? '#DF1717' : '#F9B71A')};
     border-radius: 50%;
     margin: auto 0rem;
 `;
@@ -122,7 +121,8 @@ const MobileNavBar = () => {
                                 {(show) ?
                                     <NavHashLink smooth to={section.url} style={{marginTop: '6`px'}}>
                                         <Link currentSection = {window.location.pathname == section.url} key={index} onClick={() => setToggle(!show)}>
-                                            <NavText>{section.title}</NavText><Bullet></Bullet>
+                                            <NavText>{section.title}</NavText>
+                                            <Bullet currentSection={window.location.pathname === section.url} />
                                         </Link>
                                     </NavHashLink> : null}
                             </>
