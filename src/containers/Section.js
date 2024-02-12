@@ -55,7 +55,7 @@ const Section = ({ header, articles }) => {
             </HeaderDiv>
             <ArticlesContainer>
                 {articles.map((article, index) => (
-                    (index % 2 === 0) ? <a style={{textDecoration:'none'}} href={article.article_link}><LeftArticle article={article} /></a> : <a style={{textDecoration:'none'}} href={article.article_link}><RightArticle article={article} /></a>
+                    (index % 2 === 0) ? <a style={{textDecoration:'none'}} href={article.article_link}><LeftArticle article={article} color={index % 3} /></a> : <a style={{textDecoration:'none'}} href={article.article_link}><RightArticle article={article} color={index % 3}/></a>
                 ))}
             </ArticlesContainer>
         </Container>

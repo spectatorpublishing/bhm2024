@@ -1,11 +1,16 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
+import Red from "../images/Red.svg"
+import Yellow from "../images/Yellow.svg"
+import Green from "../images/Green.svg"
+import SmallGreen from "../images/SmallGreen.svg"
+import SmallRed from "../images/SmallRed.svg"
+import SmallYellow from "../images/SmallYellow.svg"
 
-const RightArticleWrapper = styled.div`
+const LeftArticleWrapper = styled.div`
     max-width: 70vw;
     margin: 15px;
     display: flex;
-    background-color: #5F415B;
     z-index: 1;
 
     @media screen and (max-width: 1023px) {
@@ -17,88 +22,195 @@ const RightArticleWrapper = styled.div`
 `;
 
 const Column = styled.div`
-    flex: 1;
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
     @media screen and (max-width: 1023px) {
         width: 100%;
     }
 `;
 
 const MainImage = styled.div`
-    width: 350px;
-    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
     z-index: 2;
-    margin: 150px 0px 75px 90px;
-    background: #70586D;
+    position: relative;
+    margin: 0rem 0rem 0rem -10%;
 
     img {
         width: 100%;
         height: 100%;
-        margin: -75px 0px 0px -75px;
         object-fit: cover;
     }
 
     @media screen and (max-width: 1023px) {
-        width: 250px;
-        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     @media screen and (max-width: 768px) {
-        width: 30vw;
-        height: 30vw;
-        margin: 80px 0px 30px 40px;
+        max-width: 100%;
+        max-height: 100%;
 
         img {
-            margin: -20px 0px 0px -20px;
+            margin: 0px 0px 0px 0px;
         }
     }
 `;
+
+const TitleImage = styled.div`
+    display: flex;
+    z-index: 3;
+    max-width: 100%;
+    margin: 0rem 0rem 0rem 0%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+`;
+
+const ArticleImage = styled.div`
+    position: absolute;
+    max-height: 80%;
+    max-width: 70%;
+    overflow: hidden;
+    top: 10%;
+    right: 10%;
+    border-radius: 10px;
+`
 
 const ArticleInfo = styled.div`
     display: flex;
     flex-direction: column;
     z-index: 1;
-    width: 95%;
-    margin: 2rem 1rem 0rem 1rem;
+    width: fit-content;
+    margin: 0rem 0rem 0rem 0rem;
     
-    font-family: 'EB Garamond';
+    color: #212121;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-transform: capitalize;
-    font-weight: 600;
-    color: white;
 `;
 
 const ArticleTitle = styled(ArticleInfo)`
-    font-size: 1.8rem;
+    position: absolute;
+    font-size: 1.4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    @media screen and (max-width: 1200px) {
+        font-size: 1.1rem;
+    }
+    @media screen and (max-width: 1023px) {
+        font-size: 1.1rem;
+    }
     @media screen and (max-width: 768px) {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 0.8rem;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 0.7rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 0.6rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.5rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 0.4rem;
     }
 `;
 
 const ArticleAuthor = styled(ArticleInfo)`
-    font-size: 16px;
-    margin-top: 0px;
+    color: #FFF;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    @media screen and (max-width: 1200px) {
+        font-size: 1.2rem;
+    }
+    @media screen and (max-width: 1023px) {
+        font-size: 1.1rem;
+    }
     @media screen and (max-width: 768px) {
-        font-size: 8px;
-        margin-top: 0px;
+        font-size: 1.0rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 0.9rem;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 0.8rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 0.7rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.6rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 0.5rem;
     }
 `;
 
-const RightArticle = ({ article }) => {
+
+const LeftArticle = ({ 
+    article,
+    color
+ }) => {
+    var background
+    var titleb
+    if (color === 0) {
+        background = Yellow
+        titleb = SmallGreen
+    } else if (color === 1) {
+        background = Green
+        titleb = SmallRed
+    } else if (color === 2) {
+        background = Red
+        titleb = SmallYellow
+    }
     return (
-        <RightArticleWrapper>
+        <LeftArticleWrapper>     
             <Column>
-                <ArticleInfo>
+                <TitleImage>
+                    <img alt={article.article_title} src={titleb}/>
                     <ArticleTitle>{article.article_title}</ArticleTitle>
-                    <ArticleAuthor>By {article.article_authors}</ArticleAuthor>
-                </ArticleInfo>
+                </TitleImage>
+                <ArticleAuthor>
+                    BY: {article.article_authors}
+                </ArticleAuthor>
             </Column>
             <Column>
                 <MainImage>
-                    <img alt={article.article_title}  src={article.image_url}/>
+                    <img alt={article.article_title} src={background}/>
+                    <ArticleImage>
+                        <img src={article.image_url}/>
+                    </ArticleImage>
                 </MainImage>
             </Column>
-        </RightArticleWrapper>
-    )
+        </LeftArticleWrapper>
+    );
 }
 
-export default RightArticle;
+export default LeftArticle;
