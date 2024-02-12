@@ -4,6 +4,8 @@ import Red from "../images/Red.svg"
 import Yellow from "../images/Yellow.svg"
 import Green from "../images/Green.svg"
 import SmallGreen from "../images/SmallGreen.svg"
+import SmallRed from "../images/SmallRed.svg"
+import SmallYellow from "../images/SmallYellow.svg"
 
 const LeftArticleWrapper = styled.div`
     max-width: 70vw;
@@ -21,7 +23,8 @@ const LeftArticleWrapper = styled.div`
 
 const Column = styled.div`
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     @media screen and (max-width: 1023px) {
         width: 100%;
@@ -88,16 +91,23 @@ const ArticleInfo = styled.div`
     width: fit-content;
     margin: 0rem 0rem 0rem 0rem;
     
-    font-family: 'EB Garamond';
+    color: #212121;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-transform: capitalize;
-    font-weight: 600;
-    color: white;
 `;
 
 const ArticleTitle = styled(ArticleInfo)`
     position: absolute;
     font-size: 1.4rem;
-    padding: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     @media screen and (max-width: 1200px) {
         font-size: 1.1rem;
     }
@@ -125,20 +135,66 @@ const ArticleTitle = styled(ArticleInfo)`
 `;
 
 const ArticleAuthor = styled(ArticleInfo)`
-    font-size: 16px;
-    margin-top: 0px;
+    color: #FFF;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Khula;
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    @media screen and (max-width: 1200px) {
+        font-size: 1.2rem;
+    }
+    @media screen and (max-width: 1023px) {
+        font-size: 1.1rem;
+    }
     @media screen and (max-width: 768px) {
-        font-size: 8px;
-        margin-top: 0px;
+        font-size: 1.0rem;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 0.9rem;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 0.8rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 0.7rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.6rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 0.5rem;
     }
 `;
 
-const LeftArticle = ({ article }) => {
+const LeftArticle = ({ 
+    article,
+    color
+}) => {
+    var background
+    var titleb
+    if (color === 0) {
+        background = Yellow
+        titleb = SmallGreen
+    } else if (color === 1) {
+        background = Green
+        titleb = SmallRed
+    } else if (color === 2) {
+        background = Red
+        titleb = SmallYellow
+
+    }
+    console.log(article);
     return (
         <LeftArticleWrapper>     
             <Column>
                 <MainImage>
-                    <img alt={article.article_title} src={Red}/>
+                    <img alt={article.article_title} src={background}/>
                     <ArticleImage>
                         <img src={article.image_url}/>
                     </ArticleImage>
@@ -146,9 +202,12 @@ const LeftArticle = ({ article }) => {
             </Column>
             <Column>
                 <TitleImage>
-                    <img alt={article.article_title} src={SmallGreen}/>
+                    <img alt={article.article_title} src={titleb}/>
                     <ArticleTitle>{article.article_title}</ArticleTitle>
                 </TitleImage>
+                <ArticleAuthor>
+                    BY: {article.article_authors}
+                </ArticleAuthor>
             </Column>
         </LeftArticleWrapper>
     );
