@@ -64,7 +64,7 @@ const NavBar = ({isSection}) => {
             <VertNav isSection={isSection}>
             {sections.map((section, index) => (
                 <NavHashLink smooth to={section.url}>
-                    <Tab currentSection = {window.location.pathname == section.url} key={index}>
+                    <Tab currentSection = {window.location.pathname === section.url} key={index}>
                         <NavText>{section.title}</NavText>
                         <Bullet currentSection={window.location.pathname === section.url} />
                     </Tab>
