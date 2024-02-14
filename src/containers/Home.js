@@ -31,74 +31,48 @@ const Photo = styled.div`
 
 const Title = styled.div`
     display: flex; 
+    align-content: center;
     color: #DF1717;
-    margin-left: 10rem;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: 12rem;
-    font-size: 10rem;
-    width:auto;
+    line-height: 1;
+    font-size: 12vw;
     text-align: right;
-    @media only screen and (max-width: 1024px){
-        line-height: 8rem;
-        font-size: 7rem;
-    }
-    @media only screen and (max-width: 767px){
-        line-height: 4.5rem;
-        font-size: 4rem;
-    }
 `;
 
 const Title2 = styled.div`
-    display: inline-flex; 
+    display: flex;
+    align-items: center;
     color: #006123;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: 7rem;
-    font-size: 3.5rem;
-    width:auto;
+    line-height: .9;
+    font-size: 5vw;
+    width:fit-content;
     text-align: right;
-    margin-left: 1rem;
-    @media only screen and (max-width: 1024px){
-        line-height: 5rem;
-        font-size: 4rem;
-    }
-    @media only screen and (max-width: 767px){
-        line-height: 2.5rem;
-        font-size: 2rem;
-    }
+    margin-bottom: 0.5vw;
 `;
 
 const Title3 = styled.div`
-    display: flex; 
+    display: flex;
+    align-items: center;
     color: #F9B71A;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: 1rem;
-    font-size: 3.5rem;
+    line-height: .9;
+    margin-top: 0.5vw;
+    font-size: 5vw;
     width:auto;
     text-align: right;
-    @media only screen and (max-width: 1024px){
-        line-height: 5rem;
-        font-size: 4rem;
-    }
-    @media only screen and (max-width: 767px){
-        line-height: 2.5rem;
-        font-size: 2rem;
-    }
 `;
 
 const TitleContainer = styled.div`
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-right: 10rem;
-
-    @media only screen and (max-width: 1024px){
-        margin-right: 5rem;
-    }
-    @media only screen and (max-width: 767px){
-        margin-right: 2rem;
-    }
+    margin-top: 3vw;
+    margin-right: 7vw;
 `;
 
 const TitleContainer2 = styled.div`
@@ -106,13 +80,8 @@ const TitleContainer2 = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
-
-    @media only screen and (max-width: 1024px){
-        margin-right: 5rem;
-    }
-    @media only screen and (max-width: 767px){
-        margin-right: 2rem;
-    }
+    justify-content: flex-start;
+    margin-left: 3vw;
 `;
 
 
