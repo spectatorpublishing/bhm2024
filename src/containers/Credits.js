@@ -2,23 +2,25 @@ import React from 'react';
 import styled from 'styled-components';
 import { credits } from '../data/credits'
 
+
+
 const Container = styled.div`
     width: 100%;
+    padding:3rem 11rem 0rem 11rem; 
+    @media only screen and (max-width: 768px){
+        padding: 3rem 3rem 0rem 3rem;
+    }
     color: white;
 `;
 
 const HeaderDiv = styled.div`
-    padding-left:4rem;
     color:white;
-    @media only screen and (max-width: 768px){
-        text-align:center;
-    }
+    text-align: left;
 `;
 
 const Header = styled.h1`
     font-size: 3rem;
     font-family: 'Black Han Sans';
-    padding-top:2rem;
     @media only screen and (max-width: 1216px){
         width: 68%;
         font-size: 1.8rem;
@@ -38,9 +40,9 @@ const SectAndNames = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content:space-around;
+    align-content:stretch;
     width: 100%;
-    height: 200rem;
+    height: 150rem;
     margin-top: 2rem;
     @media only screen and (max-width: 768px){
         display: block;
@@ -60,7 +62,7 @@ const Section = styled.div`
     margin-bottom: 2rem;
     padding:0;
     margin:0;
-    font-family: 'EB Garamond';
+    font-family: 'Khula';
     @media only screen and (max-width: 1216px){
         font-size: 1.8rem;
         width: 18rem;

@@ -12,9 +12,12 @@ const Container = styled.div`
 `;
 
 const HeaderDiv = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15rem;
     color: white;
     font-family: 'Black Han Sans';
-    font-size: 4rem;
+    font-size: 7vw;
     font-weight: 400;
     padding: 2rem 4rem;
     display: flex;
@@ -44,12 +47,76 @@ const ArticlesContainer = styled.div`
         }
 `;
 
+const Title = styled.div`
+    display: flex; 
+    align-content: center;
+    color: #DF1717;
+    font-family: 'Black Han Sans';
+    font-weight: 400;
+    line-height: 1;
+    font-size: 7vw;
+    text-align: right;
+`;
+
+const Title2 = styled.div`
+    display: flex;
+    align-items: center;
+    color: #006123;
+    font-family: 'Black Han Sans';
+    font-weight: 400;
+    line-height: .6;
+    font-size: 3vw;
+    width:fit-content;
+    text-align: right;
+    margin-bottom: 0.5vw;
+`;
+
+const Title3 = styled.div`
+    display: flex;
+    align-items: center;
+    color: #F9B71A;
+    font-family: 'Black Han Sans';
+    font-weight: 400;
+    line-height: .6;
+    margin-top: 0.5vw;
+    font-size: 3vw;
+    width:auto;
+    text-align: right;
+`;
+
+const TitleContainer = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 4rem;
+    @media screen and (max-width: 1023px) {
+        width: fit-content;
+        justify-content: center;
+    }
+`;
+
+const TitleContainer2 = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 1vw;
+`;
+
 const Section = ({ header, articles }) => {
     return (
         <Container>
             <SpecLogoHeader/>
             <NavBar isSection />
             <MobileNavBar />
+            <TitleContainer>
+                <Title>BLACK</Title> 
+                <TitleContainer2>
+                    <Title2>HISTORY</Title2>
+                    <Title3>MONTH</Title3>
+                </TitleContainer2>
+            </TitleContainer>
             <HeaderDiv>
                 {header}
             </HeaderDiv>
