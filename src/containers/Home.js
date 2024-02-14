@@ -5,6 +5,9 @@ import NavBar from '../components/NavBar';
 import styled from 'styled-components';
 import MobileNavBar from '../components/MobileNavBar';
 import SpecLogoHeader from '../components/SpecLogoHeader';
+import RedYellow from '../images/RedYellow.png'
+import BottomLeft from '../images/BottomLeft.png'
+import BottomRight from '../images/BottomRight.png'
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -13,6 +16,7 @@ const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 `;
 
 const Wrapper =styled.div`
@@ -84,6 +88,33 @@ const TitleContainer2 = styled.div`
     margin-left: 3vw;
 `;
 
+const MiddlePhoto = styled.img`
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 17%;
+    position: absolute;
+    margin-top: -55rem;
+    right: 0;
+    @media only screen and (max-width: 768px){
+        margin-top:-165rem;
+    } 
+`
+
+const BottomLeftPhoto = styled.img`
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 17%;
+`
+const BottomRightPhoto = styled.img`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 17%;
+`
 
 const Home = () => {
 
@@ -103,7 +134,10 @@ const Home = () => {
                 </Wrapper>
                 <NavBar/>
                 <Letter/>
+                <MiddlePhoto src={RedYellow} alt=""/>
                 <Credits/>
+                <BottomLeftPhoto src={BottomLeft} alt=""/>
+                <BottomRightPhoto src={BottomRight} alt=""/>
         </HomeContainer>
     );
 };

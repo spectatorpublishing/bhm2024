@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { credits } from '../data/credits'
-
+import BottomLeft from '../images/BottomLeft.png'
+import BottomRight from '../images/BottomRight.png'
 
 
 const Container = styled.div`
@@ -14,11 +15,13 @@ const Container = styled.div`
 `;
 
 const HeaderDiv = styled.div`
+    z-index: 10;
     color:white;
     text-align: left;
 `;
 
 const Header = styled.h1`
+    z-index: 10;
     font-size: 3rem;
     font-family: 'Black Han Sans';
     @media only screen and (max-width: 1216px){
@@ -55,6 +58,7 @@ const SectAndNames = styled.div`
 `;
 
 const Section = styled.div`
+    z-index: 5;
     font-size: 2rem;
     font-weight: 400;
     width: 28rem;
@@ -84,6 +88,7 @@ const Section = styled.div`
 `;
 
 const Name = styled.div`
+    z-index: 5;
     font-family: 'Khula', sans-serif;
     font-size: 1.15rem;
     font-weight: 400;
@@ -100,6 +105,19 @@ const Name = styled.div`
     }
 `;
 
+const BottomLeftPhoto = styled.img`
+    position: absolute;
+    margin-bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 20%;
+`
+const BottomRightPhoto = styled.img`
+    position: absolute;
+    margin-bottom: 0;
+    right: 0;
+    z-index: 1;
+`
 
 const Credits = () => {
     return (

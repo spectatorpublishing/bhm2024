@@ -90,7 +90,7 @@ const TitleContainer = styled.div`
     align-items: center;
     margin-left: 4rem;
     @media screen and (max-width: 1023px) {
-        width: fit-content;
+        margin-left: 0rem;
         justify-content: center;
     }
 `;
