@@ -8,6 +8,8 @@ import SpecLogoHeader from '../components/SpecLogoHeader';
 import RedYellow from '../images/RedYellow.png'
 import BottomLeft from '../images/BottomLeft.png'
 import BottomRight from '../images/BottomRight.png'
+import Left from '../images/Left.png'; // Adjust the path as necessary
+import Right from '../images/Right.png';
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -31,6 +33,7 @@ const Photo = styled.div`
     height: auto;
     margin-left: 7.3%;
     position: relative;
+    z-index: 3;
 `;
 
 const Title = styled.div`
@@ -97,7 +100,29 @@ const MiddlePhoto = styled.img`
     margin-top: -55rem;
     right: 0;
     @media only screen and (max-width: 768px){
-        margin-top:-165rem;
+        margin-top: 10%;
+    } 
+`
+const TopLeftPhoto = styled.img`
+    z-index: 0;
+    display: flex;
+    width: 17%;
+    position: absolute;
+    margin-top: 40%;
+    left: 0;
+    @media only screen and (max-width: 768px){
+        margin-top:40%;
+    } 
+`
+const TopRightPhoto = styled.img`
+    z-index: 0;
+    display: flex;
+    width: 17%;
+    position: absolute;
+    margin-top: 25%;
+    right: 10.3%;
+    @media only screen and (max-width: 768px){
+        margin-top: 25%;
     } 
 `
 
@@ -123,7 +148,9 @@ const Home = () => {
                 <SpecLogoHeader/>
                 <MobileNavBar/>
                 <Wrapper>
+                    <TopLeftPhoto src={Left} alt=""/>
                     <Photo><img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JYF4NTKRJJC4LD4DO52Z4XQD5E.jpg" alt = "black history month graphic" width = "100%"></img></Photo>
+                    <TopRightPhoto src={Right} alt=""/>
                     <TitleContainer>
                         <Title>BLACK</Title> 
                         <TitleContainer2>
