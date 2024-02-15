@@ -2,11 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LetterWrapper = styled.div`
-    padding:3rem 11rem 10rem 11rem; 
-    
+    padding:3rem 11rem 0rem 11rem; 
+    @media only screen and (max-width: 1400px){
+        padding: 9rem 9rem 0rem 9rem;
+    }
+    @media only screen and (max-width: 1023px){
+        padding: 7rem 7rem 0rem 7rem;
+    }
     @media only screen and (max-width: 768px){
         padding: 3rem 3rem 0rem 3rem;
     }
+
 `;
 
 const LetterEditor = () => {
@@ -21,11 +27,11 @@ const LetterEditor = () => {
                 <p> Nullam cursus vel tellus ut sodales. Cras quis euismod sem. In rhoncus elit fringilla, dapibus mauris et, tempor ex. Nulla metus dui, mattis sit amet dictum sit amet, mattis in lectus. In blandit molestie molestie. Quisque tempor laoreet sollicitudin. Aenean tempor vulputate arcu. Nunc commodo a mi ut elementum. Quisque quis metus nisi. Vivamus eleifend turpis ac molestie scelerisque. Suspendisse vel nisl tempor, semper elit ac, maximus quam. Proin et volutpat tellus.</p>
             </Text>
             <Signatures>
-                <Signature className='left'><div className='name'>Full Name</div><div className='title'>Editor in Chief</div></Signature>
+                <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
                 <Spacing/>
-                <Signature><div className='name'>Full Name</div><div className='title'>Managing Editor</div></Signature>
+                <Signature><div className='name'>Esha Karam</div><div className='title'>Managing Editor</div></Signature>
                 <Spacing/>
-                <Signature><div className='name'>Full Name</div><div className='title'>Publisher</div></Signature>
+                <Signature><div className='name'>Katie Zhang</div><div className='title'>Publisher</div></Signature>
             </Signatures>
         </LetterWrapper>
     );    

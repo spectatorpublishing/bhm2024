@@ -32,7 +32,7 @@ const Tab = styled.a`
     border-radius: 20px;
     color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
     font-weight: ${props => props.currentSection ? 700 : 400};
-    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : 'black'};
+    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : '#212121'};
     padding: 0.85rem 1.25rem;
     color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
     font-weight: ${props => props.currentSection ? 700 : 400};

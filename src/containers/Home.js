@@ -8,13 +8,14 @@ import SpecLogoHeader from '../components/SpecLogoHeader';
 import RedYellow from '../images/RedYellow.png'
 import BottomLeft from '../images/BottomLeft.png'
 import BottomRight from '../images/BottomRight.png'
-import Left from '../images/Left.png'; // Adjust the path as necessary
+import Left from '../images/Left.png'; 
 import Right from '../images/Right.png';
+import BHMGraphic from '../images/BHMGraphic.jpeg'
 
 const HomeContainer = styled.div`
     width: 100%;
     height: 100%;
-    background: black;
+    background: #212121;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +44,7 @@ const Title = styled.div`
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: 1;
-    font-size: 12vw;
+    font-size: 15vw;
     text-align: right;
 `;
 
@@ -53,8 +54,8 @@ const Title2 = styled.div`
     color: #006123;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: .9;
-    font-size: 5vw;
+    line-height: .7;
+    font-size: 6.2vw;
     width:fit-content;
     text-align: right;
     margin-bottom: 0.5vw;
@@ -66,14 +67,15 @@ const Title3 = styled.div`
     color: #F9B71A;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: .9;
+    line-height: 1.1;
     margin-top: 0.5vw;
-    font-size: 5vw;
+    font-size: 6.2vw;
     width:auto;
     text-align: right;
 `;
 
 const TitleContainer = styled.div`
+    z-index: 5;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -92,38 +94,35 @@ const TitleContainer2 = styled.div`
 `;
 
 const MiddlePhoto = styled.img`
-    z-index: 1;
+    z-index: 0;
     display: flex;
     justify-content: flex-end;
     width: 17%;
     position: absolute;
-    margin-top: -55rem;
+    margin-top: -75rem;
     right: 0;
+    @media only screen and (max-width: 1023px){
+        margin-top: -67rem;
+    } 
     @media only screen and (max-width: 768px){
-        margin-top: 10%;
+        margin-top: -187rem;
     } 
 `
 const TopLeftPhoto = styled.img`
     z-index: 0;
     display: flex;
-    width: 17%;
+    width: 18%;
     position: absolute;
-    margin-top: 40%;
+    margin-top: 30%;
     left: 0;
-    @media only screen and (max-width: 768px){
-        margin-top:40%;
-    } 
 `
 const TopRightPhoto = styled.img`
     z-index: 0;
     display: flex;
-    width: 17%;
+    width: 22%;
     position: absolute;
-    margin-top: 25%;
-    right: 10.3%;
-    @media only screen and (max-width: 768px){
-        margin-top: 25%;
-    } 
+    margin-top: 11%;
+    right: 21.5%;
 `
 
 const BottomLeftPhoto = styled.img`
@@ -149,7 +148,7 @@ const Home = () => {
                 <MobileNavBar/>
                 <Wrapper>
                     <TopLeftPhoto src={Left} alt=""/>
-                    <Photo><img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JYF4NTKRJJC4LD4DO52Z4XQD5E.jpg" alt = "black history month graphic" width = "100%"></img></Photo>
+                    <Photo><img src={BHMGraphic} alt = "black history month graphic" width = "83%"></img></Photo>
                     <TopRightPhoto src={Right} alt=""/>
                     <TitleContainer>
                         <Title>BLACK</Title> 

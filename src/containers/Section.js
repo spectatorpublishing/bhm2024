@@ -8,7 +8,7 @@ import SpecLogoHeader from '../components/SpecLogoHeader';
 
 const Container = styled.div`
     min-height: 100vh;
-    background: black; 
+    background: #212121; 
 `;
 
 const HeaderDiv = styled.div`
@@ -17,7 +17,7 @@ const HeaderDiv = styled.div`
     margin-right: 15rem;
     color: white;
     font-family: 'Black Han Sans';
-    font-size: 7vw;
+    font-size: 8vw;
     font-weight: 400;
     padding: 2rem 4rem;
     display: flex;
@@ -54,7 +54,7 @@ const Title = styled.div`
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: 1;
-    font-size: 7vw;
+    font-size: 8vw;
     text-align: right;
 `;
 
@@ -64,8 +64,8 @@ const Title2 = styled.div`
     color: #006123;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: .6;
-    font-size: 3vw;
+    line-height: .5;
+    font-size: 3.5vw;
     width:fit-content;
     text-align: right;
     margin-bottom: 0.5vw;
@@ -77,9 +77,9 @@ const Title3 = styled.div`
     color: #F9B71A;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: .6;
+    line-height: .75;
     margin-top: 0.5vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     width:auto;
     text-align: right;
 `;

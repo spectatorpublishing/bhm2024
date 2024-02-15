@@ -45,7 +45,7 @@ const MobileMenu = styled.div`
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background-color: black;
+    background-color: #212121;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F8BEB9;
 
@@ -80,7 +80,7 @@ const Link = styled.a`
     border-radius: 20px;
     color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
     font-weight: ${props => props.currentSection ? 700 : 400};
-    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : 'black'};
+    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : '#212121'};
     &:hover{
          color: #DF1717;
          cursor:pointer;
