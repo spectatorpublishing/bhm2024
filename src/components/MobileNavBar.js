@@ -45,7 +45,7 @@ const MobileMenu = styled.div`
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    background-color: #212121;
+    background-color: #4F3850;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F8BEB9;
 
@@ -78,11 +78,11 @@ const Link = styled.a`
     width: fit-content;
     margin-left: auto;
     border-radius: 20px;
-    color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
-    font-weight: ${props => props.currentSection ? 700 : 400};
-    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : '#212121'};
+    color: ${props => props.currentSection ? '#F4D1D8' : '#F9B71A'};
+    font-weight: ${props => props.currentSection ? 900 : 400};
+    background-color: ${props => props.currentSection ? 'rgba(244, 209, 216, 0.2)' : '#4F3850'};
     &:hover{
-         color: #DF1717;
+         color: #F4D1D8;
          cursor:pointer;
     }
 `;
@@ -96,7 +96,7 @@ const NavText = styled.div`
 const Bullet = styled.span`
     width: 5px;
     height: 5px;
-    background-color: ${(props) => (props.currentSection ? '#DF1717' : '#F9B71A')};
+    background-color: ${(props) => (props.currentSection ? '#F4D1D8' : '#F9B71A')};
     border-radius: 50%;
     margin: auto 0rem;
 `;

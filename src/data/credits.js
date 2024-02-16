@@ -9,38 +9,31 @@ export const credits = {
       {
         "staff_name": "Aishani Srikumar",
         "title": "Engineering Manager"
-      },{
-        "staff_name": "Emily Xia",
-        "title": "Associate Developer"
       },
       {
         "staff_name": "Gabriel Guerra Trigo",
         "title": "Associate Developer"
       },
+      {
+        "staff_name": "Emily Xia",
+        "title": "Associate Developer"
+      },
     ],
     "Product": [
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Ethan Xu",
+        "title": "Co-Head of Product"
       },{
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Brandon Pae",
+        "title": "Co-Head of Product"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Faith Grady",
+        "title": "Product Design Associate"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Lindsey Cacho",
+        "title": "Product Design Associate"
       },
     ],
     "University News": [
@@ -105,79 +98,100 @@ export const credits = {
         "title": "Staff Photographer"
       },
     ],
-    "Sports": [
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },{
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-    ],
     "Arts and Culture": [
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Emily Chen",
+        "title": "A&C Editor"
       },{
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Rachel Shaw",
+        "title": "A&C Deputy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Kristin Merrilees",
+        "title": "A&C Deputy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Joyce Zhang",
+        "title": "A&C Deputy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Sarah Shapiro",
+        "title": "A&C Deputy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Ava Markhovsky",
+        "title": "A&C Staff Writer"
+      },
+      {
+        "staff_name": "Stuart Beal",
+        "title": "A&C Staff Writer"
+      },
+      {
+        "staff_name": "Layla Hussein",
+        "title": "A&C Trainee"
+      },
+    ],
+    "Sports": [
+      {
+        "staff_name": "Heather Chen",
+        "title": "Sports Editor"
+      },{
+        "staff_name": "Takashi Williams",
+        "title": "Deputy Sports Editor"
+      },
+      {
+        "staff_name": "Sydney Stoller",
+        "title": "Deputy Sports Editor"
+      },
+      {
+        "staff_name": "Emma Dignan",
+        "title": "Deputy Sports Editor"
+      },
+      {
+        "staff_name": "Lucas Metzger",
+        "title": "Deputy Sports Editor"
+      },
+      {
+        "staff_name": "Arielle Rieder",
+        "title": "Staff Writer"
       },
     ],
     "Illustrations": [
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Kelsea Petersen",
+        "title": "Illustrations Editor"
       },{
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Cassie Wang",
+        "title": "Deputy Illustratrations Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Olya Sukonrat",
+        "title": "Deputy Illustratrations Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Macy Sinreich",
+        "title": "Deputy Illustratrations Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Julian Michaud",
+        "title": "Senior Staff Illustrator"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Saumya Chaudhry",
+        "title": "Staff Illustrator"
+      },
+    ],
+    "Graphics": [
+      {
+        "staff_name": "Laya Gollamudi",
+        "title": "Graphics Editor"
+      },{
+        "staff_name": "Diya Nair",
+        "title": "Deputy Graphics Editor"
+      },
+      {
+        "staff_name": "Jenny Ye",
+        "title": "Deputy Graphics Editor"
       },
     ],
     "Spectrum": [
@@ -203,27 +217,14 @@ export const credits = {
     ],
     "Audio": [
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Sophia Cordoba",
+        "title": "Director of Podcasting and Audio"
       },{
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Lara-Nour Walton",
+        "title": "Reporting Deputy"
+      },{
+        "staff_name": "Claire Schnatterbeck",
+        "title": "Reporting Deputy"
       },
     ],
     "City News": [
@@ -253,27 +254,106 @@ export const credits = {
     ],
     "Copy": [
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "August Phillips",
+        "title": "Head Copy Editor"
       },{
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Yvin Shin",
+        "title": "Head Copy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Ainhoa Petri-Hidalgo",
+        "title": "Deputy Copy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Lanah Wyne",
+        "title": "Deputy Copy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Neena Dzur",
+        "title": "Deputy Copy Editor"
       },
       {
-        "staff_name": "Name",
-        "title": "Position Title"
+        "staff_name": "Sally Kaye",
+        "title": "Deputy Copy Editor"
+      },{
+        "staff_name": "Sophia Lee",
+        "title": "Deputy Copy Editor"
+      },{
+        "staff_name": "Claudia Kim",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Daniel Knorek",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Driscoll Callan",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Ella Ahner",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Natarsha Yan",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Nola Gallo",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Posey Chiddix",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Reena Bromberg Gaber",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Rose Leveen",
+        "title": "Associate Copy Editor"
+      },{
+        "staff_name": "Vaishnavi Sirkay",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Campbell Beaver",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Diego Carvajal Núñez",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Eli Trokenheim",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Emily Spencer",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Eric Aguilar",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Lily Lee",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Maria Levit",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Mia Feizbakhsh",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Reese Ransweiler",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Elizabeth Kushelevsky",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Katharine Lee",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Megha Parikh",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Nerea Wolfenzon",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Samantha Elkins",
+        "title": "Preslotter"
+      },{
+        "staff_name": "Shivane Pratap",
+        "title": "Preslotter"
       },
     ],
 };

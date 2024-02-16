@@ -82,7 +82,7 @@ const ArticleImage = styled.div`
     top: 10%;
     left: 10%;
     border-radius: 10px;
-`
+`;
 
 const ArticleInfo = styled.div`
     display: flex;
@@ -90,15 +90,15 @@ const ArticleInfo = styled.div`
     z-index: 1;
     width: fit-content;
     margin: 0rem 0rem 0rem 0rem;
-    
-    color: #212121;
+    color: #FFFFFF;
     text-align: center;
     font-family: "Black Han Sans";
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px black;
 `;
 
 const ArticleTitle = styled(ArticleInfo)`
@@ -135,7 +135,7 @@ const ArticleTitle = styled(ArticleInfo)`
 `;
 
 const ArticleAuthor = styled(ArticleInfo)`
-    color: #FFF;
+    color: #FFFFFF;
     text-align: left;
     margin-left: 10%;
     padding-top: 5%;
@@ -145,7 +145,7 @@ const ArticleAuthor = styled(ArticleInfo)`
     font-size: 1.3rem;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
     @media screen and (max-width: 1200px) {
         font-size: 1.2rem;
     }

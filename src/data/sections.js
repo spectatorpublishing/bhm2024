@@ -17,7 +17,7 @@ export const sections = [
         url: "/opinion",
     },
     {
-        title: "A&E",
+        title: "A&C",
         url: "/a&c",
     },
     {

@@ -30,15 +30,13 @@ const Tab = styled.a`
     justify-content: flex-end;
     margin-left: auto;
     border-radius: 20px;
-    color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
-    font-weight: ${props => props.currentSection ? 700 : 400};
-    background-color: ${props => props.currentSection ? 'rgba(229, 58, 51, 0.17)' : '#212121'};
+    color: ${props => props.currentSection ? '#F4D1D8' : '#F9B71A'};
+    font-weight: ${props => props.currentSection ? 900 : 400};
+    background-color: ${props => props.currentSection ? 'rgba(244, 209, 216, 0.2)' : '#4F3850'};
     padding: 0.85rem 1.25rem;
-    color: ${props => props.currentSection ? '#DF1717' : '#F9B71A'};
-    font-weight: ${props => props.currentSection ? 700 : 400};
     font-size: 1rem;
     :hover {
-        color: #DF1717;
+        color: #F4D1D8;
         cursor:pointer;
     }
 `;
@@ -52,7 +50,7 @@ const NavText = styled.div`
 const Bullet = styled.span`
     width: 0.35rem;
     height: 0.35rem;
-    background-color: ${(props) => (props.currentSection ? '#DF1717' : '#F9B71A')};
+    background-color: ${(props) => (props.currentSection ? '#F4D1D8' : '#F9B71A')};
     border-radius: 50%;
     margin-top: 0.38rem;
 `;

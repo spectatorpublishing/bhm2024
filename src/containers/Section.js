@@ -8,7 +8,7 @@ import SpecLogoHeader from '../components/SpecLogoHeader';
 
 const Container = styled.div`
     min-height: 100vh;
-    background: #212121; 
+    background: #4F3850; 
 `;
 
 const HeaderDiv = styled.div`
@@ -50,7 +50,7 @@ const ArticlesContainer = styled.div`
 const Title = styled.div`
     display: flex; 
     align-content: center;
-    color: #DF1717;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: 1;
@@ -61,11 +61,11 @@ const Title = styled.div`
 const Title2 = styled.div`
     display: flex;
     align-items: center;
-    color: #006123;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: .5;
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     width:fit-content;
     text-align: right;
     margin-bottom: 0.5vw;
@@ -74,12 +74,12 @@ const Title2 = styled.div`
 const Title3 = styled.div`
     display: flex;
     align-items: center;
-    color: #F9B71A;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
-    line-height: .75;
+    line-height: .85;
     margin-top: 0.5vw;
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     width:auto;
     text-align: right;
 `;
@@ -101,7 +101,7 @@ const TitleContainer2 = styled.div`
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-start;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
 `;
 
 const Section = ({ header, articles }) => {

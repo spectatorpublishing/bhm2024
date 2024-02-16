@@ -5,17 +5,12 @@ import { credits } from '../data/credits'
 
 
 const Container = styled.div`
-    width: 100%;
+    margin-top: 4rem;
+    z-index: 5;
     color: white;
-    padding:3rem 11rem 5rem 11rem;
-    @media only screen and (max-width: 1400px){
-        padding: 9rem 9rem 4rem 9rem;
-    }
-    @media only screen and (max-width: 1023px){
-        padding: 7rem 7rem 3rem 7rem;
-    }
+    padding: 2rem 2rem 0rem 2rem;
     @media only screen and (max-width: 768px){
-        padding: 3rem 3rem 0rem 3rem;
+        padding: 1rem 1rem 0rem 1rem;
     }
 `;
 
@@ -38,40 +33,23 @@ const Header = styled.h1`
         font-size: 1.88rem;
         padding: 0;
     }
-    @media only screen and (max-width: 570px) {
-        display: none;
-    }
-    @media only screen and (max-width: 400px) {
-        padding: 0;
-        font-size: 1.6rem;
-        display: inline-block;
-        display: none;
-    }
 `;
 
 const SectAndNames = styled.div`
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content:stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     width: auto;
-    height: 155rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     @media only screen and (max-width: 768px){
-        display: block;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: none;
-        height: fit-content;
-        margin-top:2rem;
-    }  
+        grid-template-columns: 1fr;
+    }
 `;
 
 const Section = styled.div`
     z-index: 5;
     font-size: 2rem;
     font-weight: 400;
-    width: calc(50% - 1rem);
+    width: auto;
     height: fit-content;
     margin-bottom: 2rem;
     padding:0;

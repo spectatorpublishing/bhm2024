@@ -15,7 +15,7 @@ import BHMGraphic from '../images/BHMGraphic.jpeg'
 const HomeContainer = styled.div`
     width: 100%;
     height: 100%;
-    background: #212121;
+    background: #4F3850;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,22 +40,22 @@ const Photo = styled.div`
 const Title = styled.div`
     display: flex; 
     align-content: center;
-    color: #DF1717;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: 1;
-    font-size: 15vw;
+    font-size: 12.5vw;
     text-align: right;
 `;
 
 const Title2 = styled.div`
     display: flex;
     align-items: center;
-    color: #006123;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: .7;
-    font-size: 6.2vw;
+    font-size: 5.1vw;
     width:fit-content;
     text-align: right;
     margin-bottom: 0.5vw;
@@ -64,12 +64,12 @@ const Title2 = styled.div`
 const Title3 = styled.div`
     display: flex;
     align-items: center;
-    color: #F9B71A;
+    color: #F4D1D8;
     font-family: 'Black Han Sans';
     font-weight: 400;
     line-height: 1.1;
     margin-top: 0.5vw;
-    font-size: 6.2vw;
+    font-size: 5.1vw;
     width:auto;
     text-align: right;
 `;
@@ -94,19 +94,28 @@ const TitleContainer2 = styled.div`
 `;
 
 const MiddlePhoto = styled.img`
-    z-index: 0;
+    z-index: 3;
     display: flex;
     justify-content: flex-end;
     width: 17%;
     position: absolute;
-    margin-top: -75rem;
+    margin-top: -175rem;
     right: 0;
+    @media only screen and (max-width: 1200px){
+        margin-top: -195rem;
+    }
     @media only screen and (max-width: 1023px){
-        margin-top: -67rem;
-    } 
+        margin-top: -155rem;
+    }
     @media only screen and (max-width: 768px){
-        margin-top: -187rem;
-    } 
+        margin-top: -280rem;
+    }
+    @media only screen and (max-width: 610px){
+        margin-top: -270rem;
+    }
+    @media only screen and (max-width: 540px){
+        margin-top: -260rem;
+    }
 `
 const TopLeftPhoto = styled.img`
     z-index: 0;
@@ -140,6 +149,25 @@ const BottomRightPhoto = styled.img`
     width: 17%;
 `
 
+const HomeSectionContainer = styled.div`
+    z-index: 2;
+    background-color: rgba(33,33,33,0.5);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    @media only screen and (max-width: 1400px){
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    @media only screen and (max-width: 1023px){
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+    @media only screen and (max-width: 768px){
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+`
+
 const Home = () => {
 
     return (
@@ -159,9 +187,11 @@ const Home = () => {
                     </TitleContainer>
                 </Wrapper>
                 <NavBar/>
-                <Letter/>
                 <MiddlePhoto src={RedYellow} alt=""/>
-                <Credits/>
+                <HomeSectionContainer>
+                    <Letter/>
+                    <Credits/>
+                </HomeSectionContainer>
                 <BottomLeftPhoto src={BottomLeft} alt=""/>
                 <BottomRightPhoto src={BottomRight} alt=""/>
         </HomeContainer>

@@ -2,17 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LetterWrapper = styled.div`
-    padding:3rem 11rem 0rem 11rem; 
-    @media only screen and (max-width: 1400px){
-        padding: 9rem 9rem 0rem 9rem;
-    }
-    @media only screen and (max-width: 1023px){
-        padding: 7rem 7rem 0rem 7rem;
-    }
+    z-index: 5;
+    padding: 2rem;
     @media only screen and (max-width: 768px){
-        padding: 3rem 3rem 0rem 3rem;
+        padding: 1rem;
     }
-
 `;
 
 const LetterEditor = () => {
@@ -22,9 +16,11 @@ const LetterEditor = () => {
             <MobileTitle>Letter From The Editor: </MobileTitle>
             
             <Text>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque ex. Vestibulum vitae lorem at dui pellentesque aliquam. Aenean mi massa, blandit eu faucibus in, dapibus in nisi. Vivamus consequat, tortor ac molestie dignissim, nunc purus consequat sem, in tincidunt enim purus eu massa. In hac habitasse platea dictumst. Duis sit amet erat vel dui semper cursus. Quisque vitae vulputate lacus. Nam risus risus, hendrerit in ullamcorper sed, viverra eu arcu. Ut euismod, risus non consectetur ultrices, ante ipsum elementum augue, sit amet commodo orci quam tempus felis. Sed et lacus id turpis venenatis vehicula. Nullam sed eros id diam suscipit tincidunt sed quis est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at velit in massa ultricies ultrices.</p>
-                <p> Nam scelerisque vel sem et vestibulum. Praesent et suscipit nisi. Maecenas tincidunt lectus non accumsan vehicula. In rutrum risus eget libero laoreet, id sollicitudin mi accumsan. Phasellus a ligula finibus, molestie urna a, porta ligula. Cras hendrerit risus ut posuere congue. Ut tincidunt, felis ut rhoncus dignissim, dolor tellus mollis odio, nec euismod tellus tortor sit amet diam. Curabitur in eleifend ante.</p>
-                <p> Nullam cursus vel tellus ut sodales. Cras quis euismod sem. In rhoncus elit fringilla, dapibus mauris et, tempor ex. Nulla metus dui, mattis sit amet dictum sit amet, mattis in lectus. In blandit molestie molestie. Quisque tempor laoreet sollicitudin. Aenean tempor vulputate arcu. Nunc commodo a mi ut elementum. Quisque quis metus nisi. Vivamus eleifend turpis ac molestie scelerisque. Suspendisse vel nisl tempor, semper elit ac, maximus quam. Proin et volutpat tellus.</p>
+                <p>Black History Month honors the lives, legacies, and contributions of Black Americans in shaping U.S. history. Every February, Spectator dedicates a special issue to the Black Columbians and residents of Morningside Heights and West Harlem whose​ voices, stories, and accomplishments make up the very fabric of our community.</p>
+                <p>In this issue, explore the decades-long history of the Columbia Black Students’ Organization and the Barnard Organization of Soul & Solidarity and learn about an in-depth research project documenting the presidency of Barack Obama, CC ’83, through audio and visual material. Uncover the challenges in preserving West Harlem’s arts and culture programs in the face of recent city budget cuts, as well as the relationship between the oldest sidewalk shed in New York City and an iconic home to many of Harlem’s Black elite. Dive into the decline of Black pitchers through the lens of Columbia baseball and Columbia’s senior associate athletic director Cara Holdsclaw’s passion for uplifting women of color in sports. Immerse yourself in a photographic exhibition on Langston Hughes and a guest lecture from Grandmaster Flash, one of the founding fathers of hip-hop. Check out Black History Month events, book, and song recommendations from Spectrum and hear from Alma Mater herself on how to deal with rich besties, tokenizing peers, and campus paparazzi.</p>
+                <p>We hope you’ll join us in our celebration with Spectator’s 2024 Black History Month edition, which inspires us all to pay tribute to the lasting impact of Black stories every day—this month, and every month.</p>
+                <Spacing/>
+                <p>Best wishes,</p>
             </Text>
             <Signatures>
                 <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
