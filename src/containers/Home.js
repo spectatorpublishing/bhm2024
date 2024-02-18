@@ -175,7 +175,7 @@ const Home = () => {
                 <MobileNavBar/>
                 <Wrapper>
                     <TopLeftPhoto src={Left} alt=""/>
-                    <Photo><img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T6NGHWUYVNDKHIXI5HG4X4KEGY.jpeg" alt = "black history month graphic" width = "83%"></img></Photo>
+                    <Photo><img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7OD7D4SIKJFY5BVS5CUFSJBBU4.jpg" alt = "black history month graphic" width = "83%"></img></Photo>
                     <TopRightPhoto src={Right} alt=""/>
                     <TitleContainer>
                         <Title>BLACK</Title> 
