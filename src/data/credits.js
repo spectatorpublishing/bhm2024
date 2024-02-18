@@ -57,45 +57,74 @@ export const credits = {
         "title": "Senior Staff Writer"
       },
     ],
-    "Photo": [
+    "Graphics": [
       {
-        "staff_name": "Hannah Yanover",
-        "title": "Photo Editor"
+        "staff_name": "Laya Gollamudi",
+        "title": "Graphics Editor"
       },{
-        "staff_name": "Judy Goldstein",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Diya Nair",
+        "title": "Deputy Graphics Editor"
       },
       {
-        "staff_name": "Gabriella Gregor-Splavor",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Jenny Ye",
+        "title": "Deputy Graphics Editor"
+      },
+    ],
+    "Audio": [
+      {
+        "staff_name": "Sophia Cordoba",
+        "title": "Director of Podcasting and Audio"
+      },{
+        "staff_name": "Lara-Nour Walton",
+        "title": "Reporting Deputy"
+      },{
+        "staff_name": "Claire Schnatterbeck",
+        "title": "Reporting Deputy"
+      },
+    ],
+    "Spectrum": [
+      {
+        "staff_name": "Anuthmi Waas",
+        "title": "Spectrum Editor"
+      },{
+        "staff_name": "Sophia Berrocal",
+        "title": "Spectrum Deputy Editor"
       },
       {
-        "staff_name": "Laura Mittelman",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Terrah Garner",
+        "title": "Staff Writer"
       },
       {
-        "staff_name": "Salem Maru",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Manuela Moreyra",
+        "title": "Staff Writer"
       },
       {
-        "staff_name": "Grace Li",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Jasmine Li",
+        "title": "Staff Writer"
+      },
+    ],
+    "City News": [
+      {
+        "staff_name": "Manuela Silva",
+        "title": "City News Editor"
+      },{
+        "staff_name": "Chimene Keys",
+        "title": "Deputy News Editor"
+      },{
+        "staff_name": "Uriel Lopez",
+        "title": "Deputy News Editor"
       },
       {
-        "staff_name": "Anna Fedorova",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Isha Banerjee",
+        "title": "Deputy News Editor"
       },
       {
-        "staff_name": "Sydney Lee",
-        "title": "Photo Deputy Editor"
+        "staff_name": "Claire Cleary",
+        "title": "Deputy News Editor"
       },
       {
-        "staff_name": "Frances Cohen",
-        "title": "Staff Photographer"
-      },
-      {
-        "staff_name": "Gaby Diaz",
-        "title": "Staff Photographer"
+        "staff_name": "Naomi Baker",
+        "title": "Staff Writer"
       },
     ],
     "Arts and Culture": [
@@ -156,6 +185,47 @@ export const credits = {
         "title": "Staff Writer"
       },
     ],
+    "Photo": [
+      {
+        "staff_name": "Hannah Yanover",
+        "title": "Photo Editor"
+      },{
+        "staff_name": "Judy Goldstein",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Gabriella Gregor-Splavor",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Laura Mittelman",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Salem Maru",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Grace Li",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Anna Fedorova",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Sydney Lee",
+        "title": "Photo Deputy Editor"
+      },
+      {
+        "staff_name": "Frances Cohen",
+        "title": "Staff Photographer"
+      },
+      {
+        "staff_name": "Gaby Diaz",
+        "title": "Staff Photographer"
+      },
+    ],
     "Illustrations": [
       {
         "staff_name": "Kelsea Petersen",
@@ -179,77 +249,6 @@ export const credits = {
       {
         "staff_name": "Saumya Chaudhry",
         "title": "Staff Illustrator"
-      },
-    ],
-    "Graphics": [
-      {
-        "staff_name": "Laya Gollamudi",
-        "title": "Graphics Editor"
-      },{
-        "staff_name": "Diya Nair",
-        "title": "Deputy Graphics Editor"
-      },
-      {
-        "staff_name": "Jenny Ye",
-        "title": "Deputy Graphics Editor"
-      },
-    ],
-    "Spectrum": [
-      {
-        "staff_name": "Anuthmi Waas",
-        "title": "Spectrum Editor"
-      },{
-        "staff_name": "Sophia Berrocal",
-        "title": "Spectrum Deputy Editor"
-      },
-      {
-        "staff_name": "Terrah Garner",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Manuela Moreyra",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Jasmine Li",
-        "title": "Staff Writer"
-      },
-    ],
-    "Audio": [
-      {
-        "staff_name": "Sophia Cordoba",
-        "title": "Director of Podcasting and Audio"
-      },{
-        "staff_name": "Lara-Nour Walton",
-        "title": "Reporting Deputy"
-      },{
-        "staff_name": "Claire Schnatterbeck",
-        "title": "Reporting Deputy"
-      },
-    ],
-    "City News": [
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },{
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
-      },
-      {
-        "staff_name": "Name",
-        "title": "Position Title"
       },
     ],
     "Copy": [
@@ -356,4 +355,10 @@ export const credits = {
         "title": "Preslotter"
       },
     ],
+    "Opinion": [
+      {
+        "staff_name": "Colin Roedl",
+        "title": "Editorial Page Editor"
+      },
+    ]
 };

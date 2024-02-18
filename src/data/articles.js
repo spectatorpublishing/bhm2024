@@ -1,176 +1,158 @@
 // Mock data to define articles to be passed into each section page
 export const ac_articles = [
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-entertainment/2023/02/05/review-black-in-babylon-where-is-the-line-between-exploitation-and-education/",
-      "article_title": "Review: Black in Babylon",
-      "article_authors": "Rachel Shaw",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NCH2VL37QVGCDMOIWPE7S6Z54U.jpeg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-entertainment/2023/02/03/new-society-of-black-artists-established/",
-      "article_title": "Columbia's Society of Black Artists has first general body meeting",
-      "article_authors": "Sinziana Stanciu",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EPONC22NZJBDRLOC7IEKJ5CTEU.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/16/im-not-going-to-let-outside-opinions-dictate-my-life-laina-dawes-on-connection-community-and-catharsis-in-hardcore-music/",
-      "article_title": "Laina Dawes- Lecturer, ethnomusicologist, heavy metal artist",
-      "article_authors": "Madison Rosenfield",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HKCTTBWHGNGR7JN3EHZHAVFAUI.JPG"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/08/retail-royalty-harlem-haberdashery-fashions-history/",
-      "article_title": "Harlem Haberdashery- Black owned West Harlem fashion co. Jay-Z is a frequent customer",
-      "article_authors": "Lucia A.",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UK3XFSZBW5ERRHGD42JGFJSUNM.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/13/meet-maguette-camara-and-mangue-sylla-inspiring-joy-in-barnards-african-dance-courses-for-nearly-20-years/",
-      "article_title": "Meet Maguette Camara and Mangue Sylla: inspiring joy in Barnard’s African dance courses for nearly 20 years",
-      "article_authors": "Lucy Kudlinski",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WN4J5KN2XBHQTFXQNV2P535JSM.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/10/review-saint-omer-presents-motherhood-as-mystery-not-intrigue/",
-      "article_title": "Review: ‘Saint Omer’ presents motherhood as mystery, not intrigue",
-      "article_authors": "Bella Pechaty",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LNXBBDCMENCXJGZE6PXCTF6EZU.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/13/candice-hoyes-law-04-defies-genre-with-civic-themes-and-fluid-musical-motifs/",
-      "article_title": "Candice Hoyes, Law ’04, defies genre with civic themes and fluid musical motifs",
-      "article_authors": "Ava Roberts and Isa Farfan",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U4KDHL27FRHQDP6CX5XSVQIULQ.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/02/07/bobuchi-ken-opurum-forbes-30-under-30-carves-the-path-in-sustainable-energy/",
-      "article_title": "Bobuchi Ken-Opurum, Forbes 30 Under 30, carves the path in sustainable energy",
-      "article_authors": "Jamal Baig",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AJ5JJE3GVRE5BIM3U46RKQDHGE.jpg"
-    }
-  ];
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/soharlems-designers-reflect-on-the-creative-process-garment-making-and-working-in-harlem/",
+    "article_title": "SoHarlem’s designers reflect on the creative process, garment-making, and working in Harlem",
+    "article_authors": "Kristin Merrilees",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3FEIAVTO6NES3LR5UWAFAKNUYA.jpg"
+  }, 
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/05/photographs-of-langston-hughes-by-griffith-j-davis-the-schomburg-center-celebrates-black-artistry-and-friendship/",
+    "article_title": "Photographs of Langston Hughes by Griffith J. Davis: The Schomburg Center celebrates Black artistry and friendship",
+    "article_authors": "Stuart Beal",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AVK3MM6NEBHIDIUC7OSQWYR2EI.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/harlem-chamber-players-is-retelling-black-history-of-classical-music-for-west-harlem/",
+    "article_title": "Harlem Chamber Players is retelling Black history of classical music for West Harlem",
+    "article_authors": "LAYLA HUSSEIN",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FINA5NQ7BZHB5PR3IZ3JJAWHIE.jpeg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/13/conceiving-culture-grandmaster-flash-on-quick-mix-theory-50-years-of-hip-hop-and-making-something-out-of-nothing/",
+    "article_title": "Conceiving culture: Grandmaster Flash on quick mix theory, 50 years of hip-hop, and making something out of nothing",
+    "article_authors": "Rachel Shaw",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7WVTESNF5NBI7E6SFLLCXJH6XM.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/12/sandi-ahavah-nelson-jamal-peoples-and-gregory-lawrence-reflect-on-50-years-of-hip-hop/",
+    "article_title": "Sandi ‘Ahavah’ Nelson, Jamal Peoples, and Gregory Lawrence reflect on 50 years of hip-hop",
+    "article_authors": "Joyce Zhang",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MMTBO3T7CZBQPEWDQ4RYEI5XAE.png"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/arts-and-culture/2024/02/09/student-and-professional-actress-ariana-neal-reflects-on-beyonce-her-career-and-the-future-of-the-black-theatre-ensemble/",
+    "article_title": "Student and professional actress Ariana Neal reflects on Beyonce, her career, and the future of the Black Theatre Ensemble",
+    "article_authors": "AVA MARKHOVSKY",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TE7T6KNUMBAFNF2XC7B45CNONY.jpg"
+  },
+];
 export const city_news_articles = 
 [
   {
-    "article_link": "https://www.columbiaspectator.com/city-news/2023/01/24/black-studies-curriculum-program-pilots-in-district-5-public-schools/",
-    "article_title": "Black studies curriculum program pilots in District 5 public schools",
-    "article_authors": "William Diep",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SV5KKHZZWND5TBRREIIASZCHKE.JPG"
+    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/13/preserving-a-community-anchor-west-harlems-arts-and-culture-programs-work-to-maintain-and-expand-economic-and-community-building-initiatives/",
+    "article_title": "Preserving a community anchor: West Harlem's arts and culture programs work to maintain and expand economic and community building initiatives",
+    "article_authors": "Chimene Keys",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/W6EB6BKIP5EZRJ57FSYOR2UVWI.JPG"
   },
   {
-    "article_link": "https://www.columbiaspectator.com/city-news/2023/02/14/a-walk-through-of-west-harlem-history/",
-    "article_title": "A walk-through of West Harlem history",
-    "article_authors": "Grace Kaste",
-    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XRDB7ADTBNAYLCY2FILIGHJ7QY.JPG"
+    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/13/ethiopian-owned-oasis-juice-bar-expands-to-columbia-business-school-2/",
+    "article_title": "Ethiopian-owned Oasis Juice bar expands to Columbia Business School",
+    "article_authors": "Naomi Baker",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YEAJ4X2SMFCKDJBLYH6R5PFMMM.jpg"
   },
   {
-    "article_link": "https://www.columbiaspectator.com/city-news/2023/02/06/medical-center-to-launch-diversity-in-clinical-trials-training-program-as-racial-disparities-in-clinical-care-persist/",
-    "article_title": "Medical center to launch ‘diversity in clinical trials’ training program as racial disparities in clinical care persist",
-    "article_authors": "Rainier Harris",
-    "image_url": "https://spectator-static-assets.s3.amazonaws.com/clinical_trials/trials_plot_paulette_test-Artboard_1.e433c1a8.png"
-  }
+    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/12/we-act-celebrates-dominican-heritage-and-black-history-month-at-february-meeting/",
+    "article_title": "WE ACT celebrates Dominican Heritage and Black History Month at February meeting",
+    "article_authors": "Uriel Lopez",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UJ2D7UNPNRC4HL2QT4IFC6RZLM.jpg"
+  },
+  {
+    "article_link": "https://www.columbiaspectator.com/city-news/2024/02/11/sidewalk-shed-reinstated-at-409-edgecombe-avenue-historic-harlem-home-of-black-leaders/",
+    "article_title": "Sidewalk shed reinstated at 409 Edgecombe Avenue, historic Harlem home of Black leaders",
+    "article_authors": "Uriel Lopez",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RBIBG2HMVBCNBFWUZTM7KVFPZ4.jpg"
+  },
 ];
 export const opinion_articles = [
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2023/02/07/new-york-is-just-as-racist-as-texas/",
-      "article_title": "New York is just as racist as Texas",
-      "article_authors": "Hayden Flowers",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3ZLRRJKFGJGB5P6FQEIA7APVLE.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2023/02/13/remaining-silent-about-black-oppression-is-an-act-of-violence/",
-      "article_title": "Remaining silent on Black oppression is an act of violence",
-      "article_authors": "Colin Roedl",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/L2TLMWDNYJET7KROSMEYZMX664.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2023/02/13/from-a-blm-fist-to-two-fingers/",
-      "article_title": "From BLM fist to two fingers",
-      "article_authors": "Ariel Gilbert",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EDIWE2FUBRHWXIQ32QYIA7DUJE.jpg"
-    }
-  ];
+  {
+    "article_link": "https://www.columbiaspectator.com/opinion/2024/02/12/ask-alma-when-attention-from-rich-besties-tokenizing-peers-and-campus-paparazzi-is-too-much-what-yacht-we-to-do/",
+    "article_title": "Ask Alma: When attention from rich besties, tokenizing peers, and campus paparazzi is too much, what 'yacht’ we to do?",
+    "article_authors": "Spectator Editorial Board",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6KLXODPWG5GSLEXXAF4O4OXMCA.jpg"
+  },
+];
   export const audio_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/podcasts/2023/02/14/a-spotlight-on-columbias-black-musicians/",
-      "article_title": "A spotlight on Columbia’s Black musicians",
-      "article_authors": "Adrien Wheaton-Schopp ",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XZWHLAMR7RAR7LGO5UIGSDWXXA.JPG"
-    }
+      "article_link": "https://www.columbiaspectator.com/podcasts/2024/02/13/riverside-church-and-the-road-to-racial-justice/",
+      "article_title": "Riverside Church and the road to racial justice",
+      "article_authors": "Sophia Cordoba",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7UVQTK7PBBHYPFJE5ULHFXWREQ.png"
+    },
   ];
 
   export const university_news_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/news/2023/02/15/presidents-commission-on-the-history-of-race-and-racism-to-shed-light-on-columbias-past-and-present/",
-      "article_title": "President’s Commission on the History of Race and Racism to shed light on Columbia’s past and present",
-      "article_authors": "Isabella Ramírez",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MTA3VFIMKBBPTGOT6APUERPGMA.jpg"
+      "article_link": "https://www.columbiaspectator.com/news/2024/02/08/an-embedded-community-black-pre-law-society-brings-together-black-undergraduates/",
+      "article_title": "‘An embedded community’: Black Pre-Law Society brings together Black undergraduates",
+      "article_authors": "Saul Quintanar",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QLRA36SUHNFDDON5B3KZW5MWKM.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/resizer/aW2ai5C86g1hIgQonl_fCJunSGU=/arc-anglerfish-arc2-prod-spectator/public/QM5UNBIMMFEZZINE4OMUWC22UY.jpg",
-      "article_title": "Columbia University and Slavery project launches historical campus markers",
-      "article_authors": "Ariel Yu and Emily Forgash",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QM5UNBIMMFEZZINE4OMUWC22UY.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/news/2023/02/13/in-ap-african-american-studies-controversy-law-school-professor-kimberle-crenshaw-takes-center-stage/",
-      "article_title": "In AP African American Studies controversy, Law School professor Kimberlé Crenshaw takes center stage",
-      "article_authors": "Amanda Chapa",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CELFWG2MHNFXTFAKSARDPDC3WY.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/news/2023/02/09/black-residential-brownstone-on-114th-street-becomes-first-residential-building-dedicated-to-black-students/",
-      "article_title": "Black Residential Brownstone on 114th Street becomes first residential building dedicated to Black students",
-      "article_authors": "John Towfighi",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WPPH2ZFMVZGSXAV7KHFUHAG2IU.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/news/2023/02/13/columbia-university-press-and-howard-university-launch-historic-book-series/",
-      "article_title": "Columbia University Press and Howard University launch historic book series",
+      "article_link": "https://www.columbiaspectator.com/news/2024/02/13/obama-presidency-oral-history-project-documents-presidency-through-voices-of-administration-activists-and-everyday-people/",
+      "article_title": "Obama Presidency Oral History Project documents presidency through voices of administration, activists, and everyday people",
       "article_authors": "Sabrina Ticer-Wurr",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GVZVXRJCHNFDNPXOVMM45FOQH4.jpg"
-    }
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FRMPYE2AMJCGHGO3FAEOLIQIHA.png"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/news/2024/02/14/meeting-the-political-moment-bso-and-boss-at-columbia-and-barnard-over-the-past-five-decades/",
+      "article_title": "‘Meeting the political moment’: BSO and BOSS at Columbia and Barnard over the past five decades",
+      "article_authors": "Maya Stahl",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SFYO5LPZBJEB7GGV7VKCXZBS2A.png"
+    },
   ];
 
 
   export const sports_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2023/02/14/support-black-women-looking-at-the-womens-basketball-community-support-efforts/",
-      "article_title": "“Support Black Women:” looking at the women’s basketball community support efforts",
-      "article_authors": "Jorge Hernandez, Rebecca Wachen, and Brian Lee",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PIEN4ANQMNE7ZEW2PBJXAD6OUA.jpeg"
+      "article_link": "https://www.columbiaspectator.com/sports/2024/02/13/tobe-carberry-a-coach-and-role-model-for-columbia-mens-basketball/",
+      "article_title": "Tobe Carberry: A coach and role model for Columbia men’s basketball",
+      "article_authors": "Takashi Williams, Arielle Rieder",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YKMEGMZXJZFVXNPIJT73ABEX4U.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2023/02/13/columbia-comet-ben-johnson-the-lions-track-star-of-the-1930s/",
-      "article_title": "‘Columbia Comet’ Ben Johnson: the Lions’ track star of the 1930s",
-      "article_authors": "Sydney Stoller",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/24DYNDZ725FYTGEI76RTXNHF2I.JPEG"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/sports/2023/02/15/hes-going-to-be-there-for-me-the-bond-between-avery-brown-and-his-father-antonio-jr/",
-      "article_title": "‘He’s going to be there for me’: The bond between Avery Brown and his father, Antonio Jr.",
+      "article_link": "https://www.columbiaspectator.com/sports/2024/02/14/pitching-against-the-odds-exploring-the-declining-number-of-black-pitchers-through-the-lens-of-columbias-baseball-players/",
+      "article_title": "Pitching against the odds: Exploring the declining number of Black pitchers through the lens of Columbia’s baseball players",
       "article_authors": "Takashi Williams",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KADHPWQ5VZGZFE5PNM22EMOBFM.jpg"
-    }
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WYBTVWG5JZG2HNIW76S4WL4ACI.jpeg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/02/12/lift-as-they-rise-cara-holdsclaw-on-elevating-women-in-sports/",
+      "article_title": "‘Lift as they rise’: Cara Holdsclaw on elevating women in sports",
+      "article_authors": "Sydney Stoller",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VBWPIOK2OBFWRALYCXVPMHUC74.JPG"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/sports/2024/02/16/remembering-jim-mcmillian-cc-70-nba-champion-columbia-legend-and-father/",
+      "article_title": "Remembering Jim McMillian, CC ’70: NBA champion, Columbia legend, and father",
+      "article_authors": "Heather Chen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZAAKSEUBNBG2PENQF4BBV3TBGA.jpeg"
+    },
   ];
 
   export const spectrum_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2023/01/30/black-history-month-booklist-and-playlist/",
-      "article_title": "Black History Month booklist and playlist",
-      "article_authors": "Madeline Suindah",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6EPK6VC5E5GMBKDSQYCMGICLJQ.JPG"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/black-history-month-class-list-must-take-classes-you-shouldnt-miss/",
+      "article_title": "Black History Month class list: Must-take classes you shouldn’t miss",
+      "article_authors": "Jasmine Li",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOGBEENULNGHRFTNFTFGNVGSAM.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/02/02/black-owned-businesses-to-support-in-west-harlem-and-morningside-heights/",
-      "article_title": "Black-owned businesses to support in West Harlem and Morningside Heights",
-      "article_authors": "Caroline Somers",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RNJFCAVCAFD5TH2QES4LBMXQCQ.jpg"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/highlighting-black-columbia-alumni-and-their-experiences/",
+      "article_title": "Highlighting Black Columbia alumni and their experiences",
+      "article_authors": "Terrah Garner",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3CVPTRASFJCZ7AYM3PSLJQ4BK4.png"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/02/06/identity-based-student-groups-empowering-black-communities-on-campus/",
-      "article_title": "Identity-based student groups empowering Black communities on campus",
-      "article_authors": "Kylie Gall",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XRA2TVKZSZBXZPSUSVRY72SQ24.gif"
-    }
-  ];
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/01/black-history-month-events-to-check-out-this-february/",
+      "article_title": "Black History Month events to check out this February",
+      "article_authors": "Manuela Moreyra",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OWILOXTMENCK7BQ7JIRUAKJGVA.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2024/02/04/black-history-month-playlist-and-book-recommendations/",
+      "article_title": "Black History Month playlist and book recommendations",
+      "article_authors": "Anuthmi Waas",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5BSKSYZH5VENFL4VEHGSN7H5BI.JPG"
+    },
+];

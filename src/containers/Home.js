@@ -10,7 +10,6 @@ import BottomLeft from '../images/BottomLeft.png'
 import BottomRight from '../images/BottomRight.png'
 import Left from '../images/Left.png'; 
 import Right from '../images/Right.png';
-import BHMGraphic from '../images/BHMGraphic.jpeg'
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -152,19 +151,19 @@ const BottomRightPhoto = styled.img`
 const HomeSectionContainer = styled.div`
     z-index: 2;
     background-color: rgba(33,33,33,0.5);
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
     @media only screen and (max-width: 1400px){
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    @media only screen and (max-width: 1023px){
         margin-left: 3.5rem;
         margin-right: 3.5rem;
     }
+    @media only screen and (max-width: 1023px){
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
     @media only screen and (max-width: 768px){
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 `
 
@@ -176,7 +175,7 @@ const Home = () => {
                 <MobileNavBar/>
                 <Wrapper>
                     <TopLeftPhoto src={Left} alt=""/>
-                    <Photo><img src={BHMGraphic} alt = "black history month graphic" width = "83%"></img></Photo>
+                    <Photo><img src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T6NGHWUYVNDKHIXI5HG4X4KEGY.jpeg" alt = "black history month graphic" width = "83%"></img></Photo>
                     <TopRightPhoto src={Right} alt=""/>
                     <TitleContainer>
                         <Title>BLACK</Title> 
