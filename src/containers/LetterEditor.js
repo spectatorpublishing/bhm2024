@@ -26,8 +26,6 @@ const LetterEditor = () => {
                 <Signature className='left'><div className='name'>Isabella Ramírez</div><div className='title'>Editor in Chief</div></Signature>
                 <Spacing/>
                 <Signature><div className='name'>Esha Karam</div><div className='title'>Managing Editor</div></Signature>
-                <Spacing/>
-                <Signature><div className='name'>Katie Zhang</div><div className='title'>Publisher</div></Signature>
             </Signatures>
         </LetterWrapper>
     );    
